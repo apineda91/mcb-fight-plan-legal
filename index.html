@@ -3,31 +3,31 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Get MCB Fight Plan</title>
-<meta name="description" content="Download MCB Fight Plan, the team's boxing training, weight and nutrition log.">
+<title>Get MCB Fighter Plan</title>
+<link rel="icon" href="icon.png">
+<meta name="description" content="Download MCB Fighter Plan, the team's boxing training, weight and nutrition log.">
 <style>
   :root {
-    --bg: #F4F5F7; --card: #FFFFFF; --text: #101318; --dim: #667085; --border: #E4E7EC;
-    --primary: #D62828; --primary-text: #FFFFFF; --soft: #FDECEC;
+    --bg: #F3F5F9; --card: #FFFFFF; --text: #0B1B2E; --dim: #5B6B80; --border: #DDE3EC;
+    --primary: #00274C; --primary-text: #FFFFFF; --soft: #FFF4C7; --maize: #FFCB05; --blue: #00274C;
   }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #0B0D10; --card: #15181D; --text: #F3F4F6; --dim: #98A2B3; --border: #262B33;
-            --primary: #EF4444; --soft: #2B1517; }
+    :root { --bg: #06111F; --card: #0E1D31; --text: #F2F5FA; --dim: #9AA8BA; --border: #1D2E45;
+            --primary: #FFCB05; --primary-text: #00274C; --soft: #2B2708; }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--text);
          font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
   main { max-width: 560px; margin: 0 auto; padding: 40px 16px 56px; }
   header { text-align: center; margin-bottom: 28px; }
-  .badge { width: 72px; height: 72px; border-radius: 18px; background: var(--primary); color: var(--primary-text);
-           display: grid; place-items: center; font-size: 36px; margin: 0 auto 14px; }
+  .badge { display: block; width: 72px; height: 72px; border-radius: 18px; margin: 0 auto 14px; }
   h1 { font-size: 28px; letter-spacing: -0.4px; margin: 0 0 6px; }
   .lede { color: var(--dim); margin: 0; }
   .card { background: var(--card); border: 1px solid var(--border); border-radius: 18px; padding: 20px; margin-bottom: 14px; }
   .card.you { border-color: var(--primary); box-shadow: 0 0 0 3px var(--soft); }
   .card h2 { font-size: 18px; margin: 0 0 4px; display: flex; align-items: center; gap: 8px; }
-  .tag { font-size: 11px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--primary);
-         background: var(--soft); border-radius: 999px; padding: 2px 8px; display: none; }
+  .tag { font-size: 11px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--text);
+         background: var(--maize); color: var(--blue); border-radius: 999px; padding: 2px 8px; display: none; }
   .card.you .tag { display: inline-block; }
   .card p { margin: 0 0 14px; color: var(--dim); font-size: 15px; }
   .btn { display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 14px;
@@ -44,8 +44,8 @@
 <body>
 <main>
   <header>
-    <div class="badge" aria-hidden="true">🥊</div>
-    <h1>MCB Fight Plan</h1>
+    <img class="badge" src="icon.png" alt="" width="72" height="72">
+    <h1>MCB Fighter Plan</h1>
     <p class="lede">The team's training, weight-cut and nutrition log.</p>
   </header>
 
